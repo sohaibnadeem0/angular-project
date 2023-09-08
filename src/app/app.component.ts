@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project-alphsa';
+  email: string = '';
+  password: string = '';
+
+  onSubmit() {
+    console.log('Email:', this.email);
+    console.log('Password:', this.password);
+  }
 }
